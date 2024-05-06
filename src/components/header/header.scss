@@ -1,0 +1,34 @@
+.navbar,
+.header__list,
+.header__btns__left__list,
+.header__btns__right__icons,
+.header__btns {
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.header__btns__right__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.header {
+    padding: 10px 0;
+    background: white;
+}
+
+@media (max-width:1220px) {
+    .header__btns__left__item {
+        display: none;
+    }
+}
+
+@media (max-width:960px) {
+    .header__item {
+        display: none;
+    }
+}
